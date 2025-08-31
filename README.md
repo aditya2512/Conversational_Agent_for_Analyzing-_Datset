@@ -6,21 +6,21 @@ An intelligent chatbot that enables data analysis and visualization through natu
 
 This project implements a multi-turn conversational agent for data exploration, showcasing:
 
-### Functionality (40%)
+### Functionality 
 - Multi-turn conversation support with context retention
 - Integrated tools for data loading, analysis, and visualization
 - LangGraph-based state management and workflow
 - Error handling and graceful fallbacks
 - Type-safe tool implementations with Pydantic validation
 
-### Reasoning Flow (25%)
+### Reasoning Flow 
 - Clear decision-making process in tool selection
 - Context-aware response generation
 - Structured conversation management
 - Intuitive command parsing and execution
 - Natural language understanding for data queries
 
-### Modularity (15%)
+### Modularity 
 - Clean separation of concerns:
   - Tool definitions (Load, Analyze, Plot)
   - State management
@@ -28,14 +28,14 @@ This project implements a multi-turn conversational agent for data exploration, 
   - Error handling
 - Reusable components and extensible architecture
 
-### Creativity (10%)
+### Creativity 
 - Intuitive natural language interface
 - Flexible data analysis capabilities
 - Interactive visualization options
 - User-friendly error messages
 - Polished chat experience
 
-### Documentation (10%)
+### Documentation
 - Comprehensive setup instructions
 - Clear code documentation
 - Detailed usage examples
@@ -297,8 +297,8 @@ You: columns
 Assistant: date, product, category, quantity, revenue
 
 You: value_counts(category)
-Assistant: Electronics    6
-Furniture     4
+Assistant: Electronics    5
+Furniture     5
 Name: category, dtype: int64
 
 You: top_by(revenue, 3)
@@ -329,3 +329,4 @@ The example outputs demonstrate:
 Both datasets showcase different aspects of the agent's capabilities:
 - `sample.csv`: Simple time-series data with revenue trends
 - `sample_sales.csv`: Complex sales data with multiple dimensions for analysis
+
