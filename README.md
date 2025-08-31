@@ -56,7 +56,7 @@ os.environ["OPENAI_API_KEY"] = "your-api-key-here"
 
 1. **Loading Data**
 ```python
-"Load sample.csv"
+"Load sample_sales.csv"
 ```
 
 2. **Analysis Operations**
@@ -115,15 +115,7 @@ Assistant: Plot created.
    - Customizable visualizations
    - Configurable chat behavior
 
-## Contributing
 
-1. Fork the repository
-2. Create a feature branch
-3. Submit a pull request
-
-## License
-
-MIT License
 
 ## Example Outputs
 
@@ -191,3 +183,4 @@ The example outputs demonstrate:
 Both datasets showcase different aspects of the agent's capabilities:
 - `sample.csv`: Simple time-series data with revenue trends
 - `sample_sales.csv`: Complex sales data with multiple dimensions for analysis
+
