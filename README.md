@@ -214,12 +214,9 @@ Assistant: Plot created.
 ```
 conversational_data_explorer/
 │
-├── conversational_agent_refactored_v4.ipynb    # Main implementation
-│
-│
+├── conversational_agent_for_analyzing_dataset.ipynb    # Main implementation
 ├── sample.csv         # Simple demo dataset
 ├── sample_sales.csv    # Complex demo dataset
-│
 └── README.md          # Project documentation
 ```
 
@@ -329,4 +326,5 @@ The example outputs demonstrate:
 Both datasets showcase different aspects of the agent's capabilities:
 - `sample.csv`: Simple time-series data with revenue trends
 - `sample_sales.csv`: Complex sales data with multiple dimensions for analysis
+
 
